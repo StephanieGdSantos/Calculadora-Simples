@@ -1,0 +1,15 @@
+C:\Users\gomes\Desktop\Stephanie\ESTUDOS\C#\Calculadora\bin\Release\netcoreapp3.1\win-x64\Calculadora.exe
+C:\Users\gomes\Desktop\Stephanie\ESTUDOS\C#\Calculadora\bin\Release\netcoreapp3.1\win-x64\Calculadora.deps.json
+C:\Users\gomes\Desktop\Stephanie\ESTUDOS\C#\Calculadora\bin\Release\netcoreapp3.1\win-x64\Calculadora.runtimeconfig.json
+C:\Users\gomes\Desktop\Stephanie\ESTUDOS\C#\Calculadora\bin\Release\netcoreapp3.1\win-x64\Calculadora.runtimeconfig.dev.json
+C:\Users\gomes\Desktop\Stephanie\ESTUDOS\C#\Calculadora\bin\Release\netcoreapp3.1\win-x64\Calculadora.dll
+C:\Users\gomes\Desktop\Stephanie\ESTUDOS\C#\Calculadora\bin\Release\netcoreapp3.1\win-x64\Calculadora.pdb
+C:\Users\gomes\Desktop\Stephanie\ESTUDOS\C#\Calculadora\obj\Release\netcoreapp3.1\win-x64\Calculadora.Calculadora.resources
+C:\Users\gomes\Desktop\Stephanie\ESTUDOS\C#\Calculadora\obj\Release\netcoreapp3.1\win-x64\Calculadora.csproj.GenerateResource.cache
+C:\Users\gomes\Desktop\Stephanie\ESTUDOS\C#\Calculadora\obj\Release\netcoreapp3.1\win-x64\Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gomes\Desktop\Stephanie\ESTUDOS\C#\Calculadora\obj\Release\netcoreapp3.1\win-x64\Calculadora.AssemblyInfoInputs.cache
+C:\Users\gomes\Desktop\Stephanie\ESTUDOS\C#\Calculadora\obj\Release\netcoreapp3.1\win-x64\Calculadora.AssemblyInfo.cs
+C:\Users\gomes\Desktop\Stephanie\ESTUDOS\C#\Calculadora\obj\Release\netcoreapp3.1\win-x64\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\gomes\Desktop\Stephanie\ESTUDOS\C#\Calculadora\obj\Release\netcoreapp3.1\win-x64\Calculadora.dll
+C:\Users\gomes\Desktop\Stephanie\ESTUDOS\C#\Calculadora\obj\Release\netcoreapp3.1\win-x64\Calculadora.pdb
+C:\Users\gomes\Desktop\Stephanie\ESTUDOS\C#\Calculadora\obj\Release\netcoreapp3.1\win-x64\Calculadora.genruntimeconfig.cache
