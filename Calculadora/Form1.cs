@@ -83,33 +83,78 @@ namespace Calculadora
         #region "Operadores"
         public void btnSoma_Click(object sender, EventArgs e)
         {
-            numero2 = double.Parse(numero, CultureInfo.InvariantCulture);
-            numero = null;
-            operador = 1;
-            lblOperador.Text = '+'.ToString();
+            if (numero != null)
+            {
+                numero2 = double.Parse(numero, CultureInfo.InvariantCulture);
+                numero = null;
+                operador = 1;
+                lblOperador.Text = "+".ToString();
+            }
+            else if (numero == "+")
+            {
+                MessageBox.Show("O símbolo '+' já foi selecionado. Insira o número.",
+                    "Símbolo já inserido", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                numero += "+";
+                txtVisor.Text = numero.ToString();
+            }
         }
 
         public void btnSubtracao_Click(object sender, EventArgs e)
         {
-            numero2 = double.Parse(numero, CultureInfo.InvariantCulture);
-            numero = null;
-            operador = 2;
-            lblOperador.Text = '-'.ToString();
+            if (numero != null)
+            {
+                numero2 = double.Parse(numero, CultureInfo.InvariantCulture);
+                numero = null;
+                operador = 2;
+                lblOperador.Text = "-".ToString();
+            }
+            else if (numero == "-")
+            {
+                MessageBox.Show("O símbolo '-' já foi selecionado. Insira o número.", 
+                    "Símbolo já inserido", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                numero += "-";
+                txtVisor.Text = numero.ToString();
+            }
         }
+
         public void btnMultiplicacao_Click(object sender, EventArgs e)
         {
-            numero2 = double.Parse(numero, CultureInfo.InvariantCulture);
-            numero = null;
-            operador = 3;
-            lblOperador.Text = 'x'.ToString();
+            try
+            {
+                numero2 = double.Parse(numero, CultureInfo.InvariantCulture);
+                numero = null;
+                operador = 3;
+                lblOperador.Text = 'x'.ToString();
+            }
+            catch
+            {
+                string text = "O número para multiplicação deve ser selecionado antes.";
+                string title = "Falta de número para multiplicar";
+                MessageBox.Show(text, title, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         public void btnDivisao_Click(object sender, EventArgs e)
         {
-            numero2 = double.Parse(numero, CultureInfo.InvariantCulture);
-            numero = null;
-            operador = 4;
-            lblOperador.Text = '/'.ToString();
+            try
+            {
+                numero2 = double.Parse(numero, CultureInfo.InvariantCulture);
+                numero = null;
+                operador = 4;
+                lblOperador.Text = '/'.ToString();
+            }
+            catch
+            {
+                string text = "O número para divisão deve ser selecionado antes.";
+                string title = "Falta de número para ser dividido";
+                MessageBox.Show(text, title, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
         #endregion
 
@@ -142,7 +187,7 @@ namespace Calculadora
             txtVisor.Text = resultado.ToString();
             lblOperador.Text = "";
             numero2 = numero3 = 0;
-            numero = null;
+            numero = resultado.ToString();
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)

@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "NItWRjX2MdCt8yONkanCmOrk/z1X8WbYqEk5PolJBtSlNU8+JM1OVVRMOwNeoM5W+9qijU/yIa0km4e2EmBKzw==",
+  "dgSpecHash": "sjJq0kTAIIp8Vgw/6gIJE0mLahUXZCQl414tNA+FpuF4zRcYiAk5g1wQvVLy7/gsMfkgn90kOTYH4qAj9ApXmg==",
   "success": true,
   "projectFilePath": "C:\\Users\\gomes\\Desktop\\Stephanie\\ESTUDOS\\C#\\Calculadora\\Calculadora.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\gomes\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\3.1.32\\microsoft.netcore.app.runtime.win-x64.3.1.32.nupkg.sha512",
+    "C:\\Users\\gomes\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\3.1.32\\microsoft.windowsdesktop.app.runtime.win-x64.3.1.32.nupkg.sha512",
+    "C:\\Users\\gomes\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\3.1.32\\microsoft.aspnetcore.app.runtime.win-x64.3.1.32.nupkg.sha512",
+    "C:\\Users\\gomes\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
   "logs": []
 }
